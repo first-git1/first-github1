@@ -3,10 +3,20 @@ package ts;
 public class MyTs {
 public String name;
 public String addres;
+public String type;
 public String phone;
 public String getName() {
 	return name;
 }
+
+public String getType() {
+	return type;
+}
+
+public void setType(String type) {
+	this.type = type;
+}
+
 public void setName(String name) {
 	this.name = name;
 }
